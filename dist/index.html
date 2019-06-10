@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Webpack</title>
+<link href="style.css" rel="stylesheet"></head>
+
+<body>
+    <div class="wrapper">
+        <header>
+            <h2 class="name-block">Home page</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="title col-lg-6 col-sm-12">
+                        <h1>Bhagas<span class="another__color">kara</span>.</h1>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-10 col-sm-12">
+                        <h2 class="head__caption">Fusce rutrum pretium lorem semper nulla.</h2>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-11 col-sm-12">
+                        <p class="head__caption__text">Vestibulum ornare cursus nisl, fermentum tincidunt libero pretium
+                            et. Maecenas interdum
+                            ligula non
+                            fermentum fringilla</p>
+                    </div>
+                </div>
+                <div class="head-items">
+                    <div class="row row__one justify-content-center">
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                            <div class="item">
+                                <svg class="item__background" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    viewBox="0 0 108 122">
+                                    <path class="item__hexagon"
+                                        d="M1.5,39.35v43.3a15,15,0,0,0,7.5,13l37.5,21.65a15,15,0,0,0,15,0L99,95.64a15,15,0,0,0,7.5-13V39.35a15,15,0,0,0-7.5-13L61.5,4.71a15,15,0,0,0-15,0L9,26.36A15,15,0,0,0,1.5,39.35Z"
+                                        fill="#fff" fill-opacity="0.2" stroke="#fff" stroke-width="2" />
+                                </svg>
+                                <img class="item__icon" src="/img/settings.png" width="55px" height="55px" alt="">
+                                <div class="item__caption">Services</div>
+                            </div>
+                        </div>
+                        <div class="col-lg-2 col-md-3 col-sm-6 col-xs-12">
+                            <div class="item">
+                                <svg class="item__background" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    viewBox="0 0 108 122">
+                                    <path class="item__hexagon"
+                                        d="M1.5,39.35v43.3a15,15,0,0,0,7.5,13l37.5,21.65a15,15,0,0,0,15,0L99,95.64a15,15,0,0,0,7.5-13V39.35a15,15,0,0,0-7.5-13L61.5,4.71a15,15,0,0,0-15,0L9,26.36A15,15,0,0,0,1.5,39.35Z"
+                                        fill="#fff" fill-opacity="0.2" stroke="#fff" stroke-width="2" />
+                                </svg>
+                                <img class="item__icon" src="/img/picture.png" width="55px" height="55px" alt="">
+                                <div class="item__caption">Portfolio</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row row__two justify-content-between">
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="container">
+                                <div class="row">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="item">
+                                            <svg class="item__background" xmlns="http://www.w3.org/2000/svg"
+                                                width="100%" viewBox="0 0 108 122">
+                                                <path class="item__hexagon"
+                                                    d="M1.5,39.35v43.3a15,15,0,0,0,7.5,13l37.5,21.65a15,15,0,0,0,15,0L99,95.64a15,15,0,0,0,7.5-13V39.35a15,15,0,0,0-7.5-13L61.5,4.71a15,15,0,0,0-15,0L9,26.36A15,15,0,0,0,1.5,39.35Z"
+                                                    fill="#fff" fill-opacity="0.2" stroke="#fff" stroke-width="2" />
+                                            </svg>
+                                            <img class="item__icon" src="/img/thinking.png" width="55px" height="55px"
+                                                alt="">
+                                            <div class="item__caption">About</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="item">
+                                            <svg class="item__background" xmlns="http://www.w3.org/2000/svg"
+                                                width="100%" viewBox="0 0 108 122">
+                                                <path class="item__hexagon"
+                                                    d="M1.5,39.35v43.3a15,15,0,0,0,7.5,13l37.5,21.65a15,15,0,0,0,15,0L99,95.64a15,15,0,0,0,7.5-13V39.35a15,15,0,0,0-7.5-13L61.5,4.71a15,15,0,0,0-15,0L9,26.36A15,15,0,0,0,1.5,39.35Z"
+                                                    fill="#fff" fill-opacity="0.2" stroke="#fff" stroke-width="2" />
+                                            </svg>
+                                            <img class="item__icon" src="/img/group.png" width="55px" height="55px"
+                                                alt="">
+                                            <div class="item__caption">Team</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12">
+                            <div class="container">
+                                <div class="row row__two__two">
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="item">
+                                            <svg class="item__background" xmlns="http://www.w3.org/2000/svg"
+                                                width="100%" viewBox="0 0 108 122">
+                                                <path class="item__hexagon"
+                                                    d="M1.5,39.35v43.3a15,15,0,0,0,7.5,13l37.5,21.65a15,15,0,0,0,15,0L99,95.64a15,15,0,0,0,7.5-13V39.35a15,15,0,0,0-7.5-13L61.5,4.71a15,15,0,0,0-15,0L9,26.36A15,15,0,0,0,1.5,39.35Z"
+                                                    fill="#fff" fill-opacity="0.2" stroke="#fff" stroke-width="2" />
+                                            </svg>
+                                            <img class="item__icon" src="/img/edit.png" width="55px" height="55px"
+                                                alt="">
+                                            <div class="item__caption">Blog</div>
+                                        </div>
+                                    </div>
+                                    <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+                                        <div class="item">
+                                            <svg class="item__background" xmlns="http://www.w3.org/2000/svg"
+                                                width="100%" viewBox="0 0 108 122">
+                                                <path class="item__hexagon"
+                                                    d="M1.5,39.35v43.3a15,15,0,0,0,7.5,13l37.5,21.65a15,15,0,0,0,15,0L99,95.64a15,15,0,0,0,7.5-13V39.35a15,15,0,0,0-7.5-13L61.5,4.71a15,15,0,0,0-15,0L9,26.36A15,15,0,0,0,1.5,39.35Z"
+                                                    fill="#fff" fill-opacity="0.2" stroke="#fff" stroke-width="2" />
+                                            </svg>
+                                            <img class="item__icon" src="/img/contact.png" width="55px" height="55px"
+                                                alt="">
+                                            <div class="item__caption">Contacts</div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="nav">
+            <div class="container">
+                <div class="row justify-content-between">
+                    <div class="col-md-3 col-12">
+                        <h2 class="nav__title">Bhagas<span class="another__color">kara</span>.</h2>
+                    </div>
+                    <div class="col-lg-7 col-md-8 col-12">
+                        <ul class="nav__list">
+                            <li><a href="">home</a></li>
+                            <li><a href="">about</a></li>
+                            <li><a href="">team</a></li>
+                            <li><a href="">Services</a></li>
+                            <li><a href="">Portfolio</a></li>
+                            <li><a href="">blog</a></li>
+                            <li><a href="">contacts</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="info">
+            <div class="container">
+                <div class="row ">
+                    <div class="col-lg-3 col-md-6 col-12">
+                        <div class="info__block d-flex flex-column align-items-center">
+                            <div class="info__svg">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    viewBox="0 0 172.000000 186.000000" preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,186.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path d="M785 1853 c-56 -12 -125 -45 -275 -133 -91 -53 -201 -116 -245 -140
+                                        -108 -59 -204 -154 -236 -235 -23 -58 -24 -70 -27 -380 -3 -225 0 -336 8 -375
+                                        33 -148 99 -218 325 -347 88 -50 207 -118 265 -152 79 -46 125 -65 180 -77
+                                        124 -26 197 -5 395 111 77 45 183 106 235 135 179 100 240 160 281 277 19 53
+                                        21 83 23 358 1 165 -1 327 -6 360 -23 154 -91 230 -328 365 -91 52 -205 118
+                                        -255 147 -132 79 -244 107 -340 86z m230 -78 c107 -55 489 -278 528 -309 48
+                                        -38 91 -107 112 -178 14 -48 16 -104 13 -380 l-3 -323 -28 -61 c-43 -92 -98
+                                        -138 -327 -270 -307 -177 -346 -196 -427 -201 -99 -7 -157 16 -388 150 -360
+                                        209 -381 225 -425 345 -20 53 -21 71 -18 401 3 345 3 346 28 396 44 91 106
+                                        139 375 292 138 78 268 149 290 158 27 9 69 14 125 12 73 -2 95 -7 145 -32z" />
+                                        <path d="M669 1205 c-94 -30 -161 -143 -140 -235 14 -63 38 -93 178 -232 116
+                                        -115 145 -138 169 -138 24 0 55 26 175 143 82 80 153 158 162 179 32 69 16
+                                        171 -36 226 -62 67 -174 86 -256 43 l-44 -23 -37 21 c-50 28 -114 34 -171 16z
+                                        m129 -50 c20 -9 46 -25 58 -36 21 -19 21 -19 58 11 85 67 203 44 251 -51 18
+                                        -33 19 -96 4 -136 -13 -35 -268 -293 -289 -293 -9 0 -77 62 -152 138 -95 97
+                                        -139 148 -147 175 -23 71 12 152 82 186 50 25 85 26 135 6z" />
+                                    </g>
+                                </svg>
+
+                            </div>
+                            <h2 class="info__title">Build with love</h2>
+                            <p class="info__text">Fusce facilisis velit libero, nec
+                                dignissim lacus sagittis non.
+                                Sed nec porta ante. Pellentesque
+                                habitant morbi tristique senectus et.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info__block d-flex flex-column align-items-center">
+                            <div class="info__svg">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    viewBox="0 0 172.000000 186.000000" preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,186.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path d="M785 1853 c-56 -12 -125 -45 -275 -133 -91 -53 -201 -116 -245 -140
+                                        -108 -59 -204 -154 -236 -235 -23 -58 -24 -70 -27 -380 -3 -225 0 -336 8 -375
+                                        33 -148 99 -218 325 -347 88 -50 207 -118 265 -152 79 -46 125 -65 180 -77
+                                        124 -26 197 -5 395 111 77 45 183 106 235 135 179 100 240 160 281 277 19 53
+                                        21 83 23 358 1 165 -1 327 -6 360 -23 154 -91 230 -328 365 -91 52 -205 118
+                                        -255 147 -132 79 -244 107 -340 86z m230 -78 c107 -55 489 -278 528 -309 48
+                                        -38 91 -107 112 -178 14 -48 16 -104 13 -380 l-3 -323 -28 -61 c-43 -92 -98
+                                        -138 -327 -270 -307 -177 -346 -196 -427 -201 -99 -7 -157 16 -388 150 -360
+                                        209 -381 225 -425 345 -20 53 -21 71 -18 401 3 345 3 346 28 396 44 91 106
+                                        139 375 292 138 78 268 149 290 158 27 9 69 14 125 12 73 -2 95 -7 145 -32z" />
+                                        <path
+                                            d="M554 1128 c-62 -60 -84 -88 -84 -107 0 -37 380 -441 415 -441 35 0 415 404 415 441 0 19 -21 46 -84 107 l-84 82 -247 0 -247 0 -84 -82z m183 5 c-16 -16 -18 -16 -34 0 -16 16 -15 17 17 17 32 0 33 -1 17 -17z m193 13 c0 -2 -10 -11 -23 -19 -21 -14 -25 -13 -48 4 l-24 19 48 0 c26 0 47 -2 47 -4z m137 -13 c-16 -16 -18 -16 -34 0 -16 16 -15 17 17 17 32 0 33 -1 17 -17z m-233 -65 c-24 -19 -34 -18 -67 10 -16 15 -16 16 4 38 l21 23 33 -26 33 -27 -24 -18z m174 15 c-24 -30 -47 -35 -72 -16 l-24 18 32 27 31 26 22 -20 c18 -17 20 -24 11 -35z m-333 27 c18 -20 18 -21 -10 -50 -24 -25 -36 -30 -78 -30 l-48 0 53 50 c29 27 56 49 59 50 3 0 14 -9 24 -20z m500 -30 l49 -50 -45 0 c-37 0 -50 5 -74 30 -28 29 -28 30 -10 50 10 11 21 20 24 20 4 0 29 -22 56 -50z m-430 -30 c18 -20 17 -20 -20 -20 -37 0 -38 0 -20 20 10 11 19 20 20 20 1 0 10 -9 20 -20z m320 0 c18 -20 17 -20 -20 -20 -37 0 -38 0 -20 20 10 11 19 20 20 20 1 0 10 -9 20 -20z m-145 -15 c0 -3 -17 -5 -37 -5 -35 1 -37 2 -19 15 13 10 24 11 37 4 11 -5 19 -12 19 -14z m-216 -157 c46 -77 58 -103 39 -83 -16 17 -65 67 -108 113 l-78 82 40 0 40 0 67 -112z m90 95 c12 -44 47 -235 43 -239 -3 -3 -113 174 -154 249 -2 4 21 7 51 7 43 0 56 -4 60 -17z m143 -10 c-3 -16 -16 -81 -29 -147 l-23 -119 -27 134 c-15 74 -27 140 -28 147 0 8 18 12 56 12 56 0 56 0 51 -27z m150 20 c-41 -75 -151 -252 -154 -249 -4 4 31 195 43 239 4 13 17 17 60 17 30 0 53 -3 51 -7z m43 -80 c-46 -49 -95 -99 -108 -113 -13 -14 7 26 44 88 l67 112 40 0 41 0 -84 -87z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <h2 class="info__title">Clean and modern</h2>
+                            <p class="info__text">Fusce facilisis velit libero, nec
+                                dignissim lacus sagittis non.
+                                Sed nec porta ante. Pellentesque
+                                habitant morbi tristique senectus et.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info__block d-flex flex-column align-items-center">
+                            <div class="info__svg">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    viewBox="0 0 172.000000 186.000000" preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,186.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path d="M785 1853 c-56 -12 -125 -45 -275 -133 -91 -53 -201 -116 -245 -140
+                                        -108 -59 -204 -154 -236 -235 -23 -58 -24 -70 -27 -380 -3 -225 0 -336 8 -375
+                                        33 -148 99 -218 325 -347 88 -50 207 -118 265 -152 79 -46 125 -65 180 -77
+                                        124 -26 197 -5 395 111 77 45 183 106 235 135 179 100 240 160 281 277 19 53
+                                        21 83 23 358 1 165 -1 327 -6 360 -23 154 -91 230 -328 365 -91 52 -205 118
+                                        -255 147 -132 79 -244 107 -340 86z m230 -78 c107 -55 489 -278 528 -309 48
+                                        -38 91 -107 112 -178 14 -48 16 -104 13 -380 l-3 -323 -28 -61 c-43 -92 -98
+                                        -138 -327 -270 -307 -177 -346 -196 -427 -201 -99 -7 -157 16 -388 150 -360
+                                        209 -381 225 -425 345 -20 53 -21 71 -18 401 3 345 3 346 28 396 44 91 106
+                                        139 375 292 138 78 268 149 290 158 27 9 69 14 125 12 73 -2 95 -7 145 -32z" />
+                                        <path d="M672 1198 c-5 -7 -13 -24 -17 -38 -4 -14 -16 -35 -27 -46 -15 -17
+                                        -18 -33 -16 -75 3 -47 6 -54 25 -57 28 -4 28 -4 49 -202 9 -85 21 -161 26
+                                        -167 12 -15 323 -19 332 -4 4 7 46 340 46 366 0 3 8 5 18 5 29 0 42 21 42 67
+                                        0 29 -6 48 -19 60 -11 10 -27 37 -36 61 l-17 42 -198 0 c-146 0 -200 -3 -208
+                                        -12z m381 -50 c4 -12 5 -24 3 -25 -2 -2 -84 -2 -183 -1 l-180 3 8 23 c8 22 11
+                                        22 178 22 166 0 169 0 174 -22z m47 -103 l0 -25 -225 0 -225 0 0 25 0 25 225
+                                        0 225 0 0 -25z m-60 -90 l0 -25 -165 0 -165 0 0 25 0 25 165 0 165 0 0 -25z
+                                        m-10 -77 c0 -13 -3 -53 -7 -90 l-6 -68 -138 0 -137 0 -6 28 c-3 15 -8 55 -11
+                                        90 l-7 62 156 0 c155 0 156 0 156 -22z m-20 -213 l0 -25 -129 0 c-131 0 -141
+                                        3 -141 41 0 5 60 9 135 9 l135 0 0 -25z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <h2 class="info__title">Easy to use</h2>
+                            <p class="info__text">Fusce facilisis velit libero, nec
+                                dignissim lacus sagittis non.
+                                Sed nec porta ante. Pellentesque
+                                habitant morbi tristique senectus et.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6">
+                        <div class="info__block d-flex flex-column align-items-center">
+                            <div class="info__svg">
+                                <svg version="1.0" xmlns="http://www.w3.org/2000/svg" width="100%"
+                                    viewBox="0 0 172.000000 186.000000" preserveAspectRatio="xMidYMid meet">
+                                    <g transform="translate(0.000000,186.000000) scale(0.100000,-0.100000)"
+                                        stroke="none">
+                                        <path d="M785 1853 c-56 -12 -125 -45 -275 -133 -91 -53 -201 -116 -245 -140
+                                        -108 -59 -204 -154 -236 -235 -23 -58 -24 -70 -27 -380 -3 -225 0 -336 8 -375
+                                        33 -148 99 -218 325 -347 88 -50 207 -118 265 -152 79 -46 125 -65 180 -77
+                                        124 -26 197 -5 395 111 77 45 183 106 235 135 179 100 240 160 281 277 19 53
+                                        21 83 23 358 1 165 -1 327 -6 360 -23 154 -91 230 -328 365 -91 52 -205 118
+                                        -255 147 -132 79 -244 107 -340 86z m230 -78 c107 -55 489 -278 528 -309 48
+                                        -38 91 -107 112 -178 14 -48 16 -104 13 -380 l-3 -323 -28 -61 c-43 -92 -98
+                                        -138 -327 -270 -307 -177 -346 -196 -427 -201 -99 -7 -157 16 -388 150 -360
+                                        209 -381 225 -425 345 -20 53 -21 71 -18 401 3 345 3 346 28 396 44 91 106
+                                        139 375 292 138 78 268 149 290 158 27 9 69 14 125 12 73 -2 95 -7 145 -32z" />
+                                        <path d="M676 1204 c-14 -13 -16 -55 -16 -299 0 -244 2 -286 16 -299 13 -13
+                                        46 -16 204 -16 189 0 190 0 205 24 14 21 16 63 13 301 -3 260 -4 277 -22 291
+                                        -30 22 -378 20 -400 -2z m374 -54 c0 -19 -7 -20 -175 -20 -168 0 -175 1 -175
+                                        20 0 19 7 20 175 20 168 0 175 -1 175 -20z m0 -245 l0 -195 -175 0 -175 0 0
+                                        195 0 195 175 0 175 0 0 -195z m-2 -247 c-3 -23 -4 -23 -173 -23 -169 0 -170
+                                        0 -173 23 l-3 22 176 0 176 0 -3 -22z" />
+                                        <path d="M830 1150 c0 -5 20 -10 45 -10 25 0 45 5 45 10 0 6 -20 10 -45 10
+                                        -25 0 -45 -4 -45 -10z" />
+                                        <path d="M850 661 c0 -12 29 -23 41 -15 18 10 9 24 -16 24 -14 0 -25 -4 -25
+                                        -9z" />
+                                    </g>
+                                </svg>
+                            </div>
+                            <h2 class="info__title">Fully Responsive</h2>
+                            <p class="info__text">Fusce facilisis velit libero, nec
+                                dignissim lacus sagittis non.
+                                Sed nec porta ante. Pellentesque
+                                habitant morbi tristique senectus et.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="red__line"></div>
+        <section class="about">
+            <h2 class="name-block">About us page</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-md-3 col-sm-5 col-6">
+                        <h2 class="common__title">About <span class="another__color">us</span></h2>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-7 col-md-7 d-flex align-items-end">
+                        <div class="gadgets">
+                            <img src="/img/gadgets.png" width="100%" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5 col-md-5 d-flex flex-column justify-content-between">
+                        <p class="about__text">Aliquam metus neque, bibendum sit amet porta at, consequat et
+                            enim. In ut turpis non ipsum rhoncus porttitor vel ac nunc.
+                            Maecenas interdum dignissim lorem quis auctor. Donec sit amet
+                            nulla nisl, aliquam pretium ipsum. Pellentesque sodales ipsum et
+                            enim rutrum adipiscing. Quisque tincidunt mattis sapien,
+                            vel posuere.</p>
+                        <div class="button">Learn more</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="study">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="col-12 d-flex justify-content-center">
+                        <div class="study__svg">
+                            <svg version="1.0" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 167.000000 181.000000"
+                                preserveAspectRatio="xMidYMid meet">
+                                <g transform="translate(0.000000,181.000000) scale(0.100000,-0.100000)" fill="#fff"
+                                    stroke="none">
+                                    <path d="M730 1795 c-48 -16 -90 -39 -379 -205 -204 -117 -245 -148 -289 -218
+                                -58 -89 -64 -135 -60 -495 l3 -322 32 -67 c38 -80 89 -133 179 -186 38 -22
+                                155 -90 260 -151 105 -61 210 -118 235 -127 63 -23 182 -23 244 0 28 11 124
+                                63 215 116 91 53 205 118 254 145 108 61 184 138 217 222 22 55 23 73 27 359
+                                4 327 -2 385 -45 473 -39 80 -93 128 -238 210 -72 41 -178 103 -237 138 -161
+                                96 -207 114 -296 119 -51 3 -92 -1 -122 -11z m265 -78 c132 -69 479 -274 516
+                                -306 22 -18 52 -60 71 -98 l33 -68 0 -340 0 -340 -26 -56 c-15 -32 -44 -74
+                                -66 -95 -21 -22 -140 -97 -263 -169 -329 -189 -330 -189 -425 -189 -96 -1
+                                -110 5 -425 187 -230 132 -290 179 -330 262 l-25 50 0 350 c0 336 1 352 21
+                                396 31 66 87 124 163 168 371 216 461 266 496 278 24 7 71 11 115 10 63 -3 86
+                                -10 145 -40z" />
+                                    <path d="M650 1168 c-149 -35 -170 -46 -170 -91 0 -17 4 -37 8 -43 11 -16 48
+                                -34 71 -34 20 0 21 -6 21 -101 0 -55 5 -109 11 -121 19 -35 95 -61 194 -66
+                                109 -5 195 10 235 44 29 25 29 28 32 131 l3 107 35 8 c60 15 88 70 57 112 -15
+                                20 -277 86 -337 85 -19 -1 -91 -14 -160 -31z m313 -48 c126 -29 158 -42 144
+                                -56 -3 -4 -70 -21 -149 -39 l-143 -33 -140 32 c-184 43 -186 53 -18 93 70 17
+                                139 31 151 32 13 0 83 -13 155 -29z m-234 -160 l87 -21 87 21 c48 11 90 20 93
+                                20 3 0 3 -39 2 -87 l-3 -87 -35 -20 c-50 -30 -226 -30 -285 -1 l-40 20 -3 88
+                                c-1 48 0 87 4 87 4 0 46 -9 93 -20z" />
+                                    <path d="M1092 873 c3 -110 4 -118 23 -118 19 0 20 7 20 115 0 112 -1 115 -23
+                                118 -23 3 -23 3 -20 -115z" />
+                                    <path d="M1090 725 c-7 -8 -15 -35 -17 -59 -5 -38 -2 -46 16 -56 18 -9 27 -8
+                                47 5 28 18 30 44 8 91 -18 37 -34 43 -54 19z" />
+                                </g>
+                            </svg>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="col-12">
+                        <h2 class="study__text">We lorem and ipsum your aliquam</h2>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="red__line"></div>
+        <section class="team">
+            <h2 class="name-block">Our team page</h2>
+            <div class="container">
+                <div class="row justify-content-center">
+                    <h2 class="common__title">Our <span class="another__color">team</span></h2>
+                </div>
+                <div class="row">
+                    <div class="col-2">
+                        <div class="owl-carousel owl-theme">
+                            <div class="slide__item">
+                                <div class="circle"></div>
+                                <h3 class="teammate">ANNE HATHAWAY</h3>
+                                <p class="position">CEO / Marketing Guru</p>
+                                <div class="social">
+                                    <a href="">FB</a>
+                                    <a href="">TW</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+<script type="text/javascript" src="bundle.js"></script></body>
+
+</html>

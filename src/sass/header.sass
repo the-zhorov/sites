@@ -1,0 +1,66 @@
+@import "fonts.sass";
+    
+header
+    text-align: center
+    background-image: url(/img/headerBg.png)
+    background-size: cover
+    height: 100%
+    position: relative
+    color: #ffffff
+    background-color: rgba(72, 72, 72, .4)
+    background-blend-mode: multiply
+
+.title
+    margin-top: 130px
+    font-family: 'Existence Light'
+    h1
+        font-size: 4em
+
+.head__caption
+    font-family: 'Lato Hairline'
+    font-size: 2em
+
+.head__caption__text
+    font-family: 'Lato Hairline'
+    font-size: 1.5em
+
+.head-items
+    margin: 120px 0 170px
+
+.item 
+    width: 100%
+    min-width: 100px
+    position: relative
+    display: flex
+    justify-content: center
+
+
+
+.item:hover .item__hexagon 
+    fill: #9E459A
+    stroke-opacity: 0
+    fill-opacity: 1
+    stroke-width: 0px
+
+
+.item__hexagon 
+    fill: #fff
+    stroke-opacity: 1
+    fill-opacity: 0.2
+    stroke-width: 2px
+    transition: all 250ms ease-in-out
+
+.item__icon
+    position: absolute
+    top: 20%
+
+
+.item__caption 
+    position: absolute
+    top: 65%
+    width: 100%
+    text-align: center
+    font-size: 1em
+    color: #fff
+    font-family: 'Lato Regular'
+    user-select: none

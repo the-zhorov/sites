@@ -1,0 +1,37 @@
+@import "node_modules/bootstrap/scss/functions";
+@import "node_modules/bootstrap/scss/variables";
+@import "node_modules/bootstrap/scss/mixins/_breakpoints";
+
+@include media-breakpoint-down(xs)
+    .name-block
+        font-size: 1em !important
+    .title
+        h1
+            font-size: 3em
+    .nav
+        display: none !important
+    .button
+        margin: 0 auto
+    .categories
+        margin: 7px 7px !important
+@include media-breakpoint-down(sm)
+    .row__one
+        padding: 0 15px
+    .name-block
+        top: 30px !important
+        left: 30px !important
+    .head-items
+        margin: 60px 0 80px
+    .row__two__two
+        margin: 20px
+    .about__text
+        margin: 30px 0
+    .about
+        padding-bottom: 50px !important
+@include media-breakpoint-down(md)
+    .row__two
+        margin: 20px
+    form > input, textarea
+        margin-top: 35px !important
+@include media-breakpoint-down(lg)
+@include media-breakpoint-down(xl)

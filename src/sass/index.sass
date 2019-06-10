@@ -1,0 +1,99 @@
+@import "header.sass";
+@import "media.sass";
+@import "fonts.sass";
+@import "menu.sass";
+@import "info.sass";
+@import "about.sass";
+@import "team.sass";
+@import "services.sass";
+@import "blog.sass"; 
+@import "portfolio.sass"; 
+@import "footer.sass"; 
+
+*
+    margin: 0
+    padding: 0
+
+.another__color
+    color: #9f449b
+
+a
+    text-decoration: none !important
+
+ul
+    list-style: none
+    margin: 0 !important
+    padding: 0 !important
+
+.name-block
+    position: absolute
+    top: 50px
+    left: 50px
+    color: #ff0000
+    font-family: 'Myriad Pro'
+    font-size: 2em
+
+.red__line
+    background: #ff0000
+    height: 25px
+
+.common__title
+    margin-top: 150px 
+    margin-bottom: 115px
+    font-size: 2em
+    color: #676767
+    font-family: 'Existence Light'
+    position: relative
+    text-align: center
+    &:before
+        content: ""
+        position: absolute
+        height: 20px
+        width: 20px
+        top: -15px
+        right: -15px
+        border-top: 1px solid #b269af
+        border-right: 1px solid #c186be
+    &:after
+        content: ""
+        position: absolute
+        height: 20px
+        width: 20px
+        bottom: -15px
+        left: -15px
+        border-bottom: 1px solid #b269af
+        border-left: 1px solid #c186be
+    
+.button
+    width: 210px
+    height: 60px
+    margin-top: -3px
+    background: #9f449b
+    color: #ffffff
+    border-radius: 4px
+    font-family: 'Lato Light'
+    font-size: 1em
+    line-height: 60px
+    text-align: center
+    vertical-align: middle
+    box-shadow: 0px 3px 0px #6b2e68
+    transition: all 250ms ease-in-out
+    cursor: pointer
+    &:hover
+        background: #6b2e68
+
+.study
+    padding: 150px 0
+    background: url(/img/study.png)
+    background-size: cover
+
+.study__svg
+    width: 150px
+    min-width: 100px
+    margin-bottom: 60px
+
+.study__text
+    font-size: 3em
+    font-family: 'Lato Light'
+    color: #ffffff
+    text-align: center
